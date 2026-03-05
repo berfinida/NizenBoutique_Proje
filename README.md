@@ -1,6 +1,7 @@
-<div align="center">
+
 ![NizenStore Preview](preview.png)
-  
+<div align="center">
+
 # 🛍️ NizenStore
 
 ### Modern E-Commerce Website • Clean UI • Responsive Design
