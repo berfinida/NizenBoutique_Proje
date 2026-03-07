@@ -304,6 +304,10 @@
         /* --- Footer --- */
         footer { background: var(--black); color: #fff; padding: 60px 5%; margin-top: 50px; }
         .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; }
+        .footer-signature { text-align: center; margin-top: 16px; font-size: 14px; color: #666; }
+        .footer-signature-en { display: none; }
+        html[lang="en"] .footer-signature-tr { display: none; }
+        html[lang="en"] .footer-signature-en { display: inline; }
         .contact-form input, .contact-form textarea { 
             width: 100%; padding: 12px; margin-bottom: 10px; border: 1px solid #333; 
             background: #111; color: #fff; font-family: inherit;
@@ -520,8 +524,12 @@
         </div>
     </div>
     <div id="footer-copyright" style="text-align:center; margin-top:50px; font-size:10px; color:#444; border-top:1px solid #222; padding-top:20px;">
-        (c) 2026 NIZEN STORE. ALL RIGHTS RESERVED.
+        © 2026 NIZEN STORE. ALL RIGHTS RESERVED.
     </div>
+    <p class="footer-signature">
+        <span class="footer-signature-tr">© 2026 Berfin Nida — Kod &amp; Tasarım</span>
+        <span class="footer-signature-en">© 2026 Berfin Nida — Code &amp; Create</span>
+    </p>
 </footer>
 
 <div id="toast" aria-live="polite" aria-atomic="true"></div>
@@ -1938,4 +1946,3 @@
 </script>
 </body>
 </html>
-
